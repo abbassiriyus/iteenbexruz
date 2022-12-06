@@ -1,2 +1,2 @@
 # iteenbexruz
-Tagomning muhlislari
+shirinning muhlislari
