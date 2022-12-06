@@ -1,2 +1,2 @@
 # iteenbexruz
-Behruzning muhlislari
+Sardorning muhlislari
