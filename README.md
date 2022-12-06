@@ -1,2 +1,2 @@
 # iteenbexruz
-shirinning muhlislari
+ochir xichkimmi  muhlislari emas
