@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bbb" id="nav1">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Shopping</a>
+          <form class="d-flex" role="search">
+          <a href="./shop.html" class="shop"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <div id="soni">0</div>
+          </a>
+          </form>
+        
+      </div>
+    </nav>
+
+  <table style="margin-top:80px" class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+  </table>
+<script>
+    document.querySelector('#soni').innerHTML = JSON.parse(localStorage.getItem('sotib')).length;
+      k = JSON.parse(localStorage.getItem('sotib'))
+k.map((item,key)=>{
+  document.querySelector("tbody").innerHTML+=`  <tr>
+        <th scope="row">${key+1}</th>
+        <td><img width="50px" height="50px" src="${item.img}"</td>
+        <td>${item.nomi}</td>
+        <td>${item.narxi}</td>
+      </tr>`
+})
+
+
+
+</script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./json.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+
+</html>

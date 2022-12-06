@@ -1,0 +1,43 @@
+.navbar-nav{
+  margin: auto;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+} 
+a{
+  text-emphasis: none;
+}
+.card{
+margin-top: 40px;
+}
+#nav1{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: aqua;
+  z-index: 11;
+}
+span{
+  color: aqua;
+}
+
+.shop{
+  display: flex;  margin-right: 30px;
+  margin-top: 10px;
+}
+#soni{
+  background-color: crimson;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+position: relative;
+top: -12px;
+color: white;
+}

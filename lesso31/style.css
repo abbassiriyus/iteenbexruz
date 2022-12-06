@@ -1,0 +1,190 @@
+.container{
+  max-width: 1312px;
+}
+
+
+.navbar-brand {
+  margin-left: 10% ;
+  border: 1px solid slateblue;
+  color: slateblue;
+  padding: 0 20px;
+  border-radius: 30px;
+
+}
+.navbar-nav{
+  margin: auto;
+}
+.btn1{
+    padding: 14px 32px;
+    border: 1px solid #5E3BEE;
+    border-radius: 4px;
+}
+.d-flex1{
+  margin: auto;
+  margin-right: 10%;
+}
+@media(max-width:991px){
+  .nav-link{
+    margin: auto;
+    text-align: center;
+  }
+  .fff{
+    padding-bottom: 20px;
+  }
+  .d-flex1{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  }
+}
+.navbar-toggler{
+  border: none;
+}
+
+
+header{
+  display: flex;
+}
+.rasm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 8%;
+}
+.text{
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.rasm img{
+  width: 60%;
+}
+.text p{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+  
+
+  
+    /* Heading color */
+  
+    color: #282938;
+}
+.text h1{
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 120%;
+  /* or 67px */
+
+
+  /* Heading color */
+
+color: black;
+}
+.text h1 span{
+    color: #1C1E53;
+}
+.text h3{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.2vw;
+    line-height: 150%;
+    /* or 27px */
+  
+  
+    /* Body */
+  
+    color: #1C1E53;
+}
+.text button{
+    padding: 14px 32px;
+    background: #5E3BEE;
+    border:none ;
+    border-radius: 4px;
+    color: white;
+font-size: 1.2vw;
+}
+
+.my-skills{
+  background-color: white;
+}
+@media (max-width:600px){
+ .text button{
+  padding: 4px 12px;
+ } 
+ .text p{
+  font-size: 1.3vw;
+ }
+}
+
+.bir{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+@media (max-width:600px){
+  .bir h1{
+font-size: 18px;
+  }
+  .bir p{
+font-size: 10px;
+  }
+  .button button{
+font-size: 10px;
+  }
+}
+.ikki{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.kard{
+width: 30%;
+min-width: 300px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+margin-top: 30px;
+padding-bottom: 20px;
+border-radius: 20px;
+}
+.kard img{
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px ;
+width: 100%;
+}
+.kard h2,.kard p,.kard a{
+padding-left: 20px;
+}
+.contact{
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-around;
+  text-align: left;
+}
+.d{ width: 40%;min-width: 300px;}
+form input{
+width: 100%;
+}
+.d1{
+width: 90%;
+/* margin-left: %; */
+min-width: 300px;
+}
