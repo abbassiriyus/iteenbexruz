@@ -1,2 +1,2 @@
 # iteenbexruz
-Sardorning muhlislari
+ochir xichkimmi  muhlislari emas
